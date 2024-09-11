@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from song import Song
 
 Song.count = 0
@@ -50,3 +48,4 @@ class TestSong:
         assert(Song.artist_count["Beyonce"] == 1)
         assert(Song.artist_count["Nirvana"] == 1)
         assert(Song.artist_count["Hall and Oates"] == 2)
+
